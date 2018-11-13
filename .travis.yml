@@ -1,0 +1,24 @@
+os: linux
+dist: xenial
+sudo: required
+services:
+  - docker
+
+env:
+  global:
+    - DOCKER_USERNAME=rustopsbot
+    # DOCKER_PASSWORD=[secret] (note: the password is base64-encoded)
+
+matrix:
+  include:
+    - env: TASK=lint
+    - env: TASK=docker-env-linux
+      if: branch = master OR type = cron
+
+script: |
+  if [[ -x "ci/${TASK}.sh" ]]; then
+      bash "ci/${TASK}.sh"
+  else
+      echo "Error: missing run script for task ${TASK}"
+      exit 1
+  fi
