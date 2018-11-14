@@ -13,7 +13,11 @@ matrix:
   include:
     - env: TASK=lint
     - env: TASK=build
-      if: branch = master OR type = cron
+      if: branch = master AND type = push
+
+branches:
+  only:
+    - master
 
 script: |
   if [[ -x "ci/${TASK}.sh" ]]; then
