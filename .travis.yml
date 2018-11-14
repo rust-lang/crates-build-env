@@ -1,6 +1,6 @@
 language: generic
 os: linux
-dist: xenial
+dist: trusty
 sudo: required
 services:
   - docker
