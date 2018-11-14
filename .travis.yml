@@ -13,6 +13,8 @@ matrix:
   include:
     - env: TASK=lint
     - env: TASK=build
+      if: type = pull_request
+    - env: TASK=publish
       if: branch = master AND type = push
 
 branches:
