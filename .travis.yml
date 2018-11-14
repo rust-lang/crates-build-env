@@ -5,10 +5,9 @@ sudo: required
 services:
   - docker
 
-env:
-  global:
-    - DOCKER_USERNAME=rustopsbot
-    # DOCKER_PASSWORD=[secret] (note: the password is base64-encoded)
+# Required environment variables:
+# DOCKER_USERNAME: the username of the Docker Hub account used to push images
+# DOCKER_PASSWORD: base64-encoded password of the Docker Hub user
 
 matrix:
   include:

@@ -7,7 +7,7 @@ PUSH_IMAGE="rustops/crates-build-env"
 # Login on Docker Hub when executing on CI
 # Redefine long_timeout on CI
 if [[ ! -z "${CI+x}" ]]; then
-    #echo "${DOCKER_PASSWORD}" | base64 --decode | docker login --username "${DOCKER_USERNAME}" --password-stdin
+    echo "${DOCKER_PASSWORD}" | base64 --decode | docker login --username "${DOCKER_USERNAME}" --password-stdin
 
     disable-no-output-timeout() {
         while true; do
@@ -24,4 +24,4 @@ fi
 disable-no-output-timeout &
 
 docker build -t "${PUSH_IMAGE}" .
-#docker push "${PUSH_IMAGE}"
+docker push "${PUSH_IMAGE}"
