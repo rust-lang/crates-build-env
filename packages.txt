@@ -534,7 +534,6 @@ libsnappy1v5
 libsndfile1
 libsndio6.1
 libsndio-dev
-libsodium-dev
 libsoup2.4-1
 libsoup2.4-dev
 libsoup-gnome2.4-1

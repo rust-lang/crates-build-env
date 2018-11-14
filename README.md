@@ -8,7 +8,8 @@ contains all the native dependencies used by the Rust crates we know of.
 
 If your crate fails to build on one of the services that uses this Docker
 image, please either open an issue with the name of the packages you need or
-send a pull request that adds the packages to `packages.txt`.
+send a pull request that adds the packages to `packages.txt` or
+`packages-backports.txt` (if the package is in the `stretch-backports` suite).
 
 ## Using the Docker image
 
