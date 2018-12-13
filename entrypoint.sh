@@ -5,7 +5,7 @@
 # the running host user.
 if [[ ! -z "${MAP_USER_ID+x}" ]]; then
     adduser --no-create-home --disabled-login --gecos "" crates-build-env --ui "${MAP_USER_ID}" >/dev/null
-    exec su crates-build-env -c "$@"
+    exec sudo -u crates-build-env -- "$@"
 else
     exec "$@"
 fi

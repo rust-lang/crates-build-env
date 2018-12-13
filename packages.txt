@@ -776,6 +776,7 @@ ruby-test-unit
 samba-libs
 sane-utils
 sgml-base
+sudo
 tcl
 tcl8.6
 tex-common
