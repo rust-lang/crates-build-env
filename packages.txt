@@ -791,6 +791,7 @@ uuid-dev
 va-driver-all
 vdpau-driver-all
 vdpau-va-driver
+wget
 xbitmaps
 xorg-dev
 xorg-sgml-doctools
