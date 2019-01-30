@@ -459,6 +459,7 @@ libpostproc-dev
 libpq5
 libpq-dev
 libprocps6
+libprotobuf-dev
 libproxy1v5
 libpsl5
 libpthread-stubs0-dev
@@ -755,6 +756,7 @@ nodejs
 openjdk-8-jre-headless
 perl
 policykit-1
+protobuf-compiler
 python3-dev
 python-dev
 qt5-gtk-platformtheme
