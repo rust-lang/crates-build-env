@@ -1,6 +1,8 @@
 # escape=`
 
-FROM mcr.microsoft.com/windows/servercore:1803
+ARG BASE_IMAGE_VER=:1803
+
+FROM mcr.microsoft.com/windows/servercore${BASE_IMAGE_VER}
 
 # Install the Visual C++ Build tools
 #
