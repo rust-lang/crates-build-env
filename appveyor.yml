@@ -18,5 +18,5 @@ build_script:
     - ps: ./windows/ci/build.ps1
 
 deploy_script:
-    - ps: ./windows/ci/publish.ps1
+    - ps: if ($env:APPVEYOR_REPO_BRANCH -eq "master") { ./windows/ci/publish.ps1 }
 
