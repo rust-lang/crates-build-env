@@ -21,12 +21,21 @@ SHELL ["powershell", "-Command"]
 ADD https://github.com/Microsoft/vcpkg/archive/master.zip C:\TEMP\vcpkg-master.zip
 RUN $ErrorActionPreference = 'Stop';                                  `
     Expand-Archive -Path C:\TEMP\vcpkg-master.zip -DestinationPath .; `
+    rm C:\TEMP\vcpkg-master.zip;                                      `
     cd .\vcpkg-master;                                                `
     .\bootstrap-vcpkg.bat;                                            `
     .\vcpkg integrate install
 
 # Install packages
+#
+# The `vcpkg` crate searches for libraries matching the target architecture
+# exactly. It won't use x86 libraries on a 64-bit system. Setting the default
+# triplet tells `vcpkg` to install 64-bit versions.
+ENV VCPKG_DEFAULT_TRIPLET=x64-windows
 COPY vc-packages.txt C:\
 RUN .\vcpkg-master\vcpkg install @(Get-Content C:\vc-packages.txt)
+
+# Tell the `vcpkg` crate to generate dynamically linked executables
+ENV VCPKGRS_DYNAMIC=1
 
 CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
