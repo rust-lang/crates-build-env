@@ -1,1 +1,8 @@
+curl
+libmysql
+libpq
+libsodium
+libssh2
+openssl
+sqlite3
 zlib
