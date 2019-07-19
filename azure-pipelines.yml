@@ -1,18 +1,21 @@
+variables:
+  group: docker-creds
+
 jobs:
 - job: Windows
   pool:
     vmImage: win1803
   variables:
-    group: docker-creds
     IMAGE_NAME: 'crates-build-env-windows'
   steps:
     - pwsh: ./windows/ci/build.ps1
       displayName: Build Docker image
     - pwsh: ./windows/ci/publish.ps1
       displayName: Publish image to Docker Hub
-      # FIXME: Using condition for this seems brittle, maybe there's a better way?
       condition: |
-        and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'), ne(variables['Build.Reason'], 'PullRequest'))
+        and(succeeded(),
+            eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+            ne(variables['Build.Reason'], 'PullRequest'))
       env:
-        DOCKER_PASSWORD: $(DockerPassword)
-        DOCKER_USERNAME: $(DockerUsername)
+        DOCKER_PASSWORD: $(DOCKER_PASSWORD)
+        DOCKER_USERNAME: $(DOCKER_USERNAME)
