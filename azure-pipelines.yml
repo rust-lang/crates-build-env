@@ -1,5 +1,5 @@
 variables:
-  group: docker-creds
+  - group: docker-creds
 
 jobs:
 - job: Windows
