@@ -3,6 +3,7 @@ variables:
 
 jobs:
 - job: Windows
+  timeoutInMinutes: 0
   pool:
     vmImage: win1803
   variables:
