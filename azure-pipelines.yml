@@ -6,7 +6,7 @@ jobs:
   pool:
     vmImage: win1803
   variables:
-    IMAGE_NAME: 'crates-build-env-windows'
+    IMAGE_NAME: 'rustops/crates-build-env-windows'
   steps:
     - pwsh: ./windows/ci/build.ps1
       displayName: Build Docker image
