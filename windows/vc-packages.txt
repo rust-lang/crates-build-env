@@ -1,5 +1,4 @@
 curl
-libmysql
 libpq
 libsodium
 libssh2
