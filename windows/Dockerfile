@@ -15,7 +15,22 @@ RUN C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
     --includeRecommended                                           `
     || IF "%ERRORLEVEL%"=="3010" EXIT 0
 
-SHELL ["powershell", "-Command"]
+SHELL ["powershell", "-ExecutionPolicy", "Bypass", "-Command"]
+
+# Install chocolatey
+RUN iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+# Install packages
+#
+# We need to get the new value of `$PATH` after `choco install`, but
+# chocolatey's `refreshenv` won't be available until we restart the shell.
+# Make `refreshenv` available right away, by importing the Chocolatey profile
+# module. See https://stackoverflow.com/a/46760714.
+COPY choco-packages.txt C:\
+RUN $ErrorActionPreference = 'Stop';                                           `
+    choco install -y @(Get-Content C:\choco-packages.txt);                     `
+    Import-Module "C:\ProgramData\chocolatey\helpers\chocolateyProfile.psm1";  `
+    refreshenv
 
 # Install vcpkg
 ADD https://github.com/Microsoft/vcpkg/archive/master.zip C:\TEMP\vcpkg-master.zip
@@ -26,7 +41,7 @@ RUN $ErrorActionPreference = 'Stop';                                  `
     .\bootstrap-vcpkg.bat;                                            `
     .\vcpkg integrate install
 
-# Install packages
+# Install C libraries
 #
 # The `vcpkg` crate searches for libraries matching the target architecture
 # exactly. It won't use x86 libraries on a 64-bit system. Setting the default
