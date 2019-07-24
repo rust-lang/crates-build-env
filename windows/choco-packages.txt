@@ -3,3 +3,5 @@ cmake
 git
 mingw
 ninja
+netfx-4.6.1-devpack
+llvm
