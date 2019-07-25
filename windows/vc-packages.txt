@@ -2,6 +2,9 @@ curl
 libpq
 libsodium
 libssh2
+openal-soft
 openssl
+portmidi
+sdl2
 sqlite3
 zlib
