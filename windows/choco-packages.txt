@@ -1,7 +1,7 @@
 cmake
 --installargs='ADD_CMAKE_TO_PATH=System'
 git
-mingw
-ninja
-netfx-4.6.1-devpack
 llvm
+mingw
+netfx-4.6.1-devpack
+ninja
