@@ -5,3 +5,4 @@ llvm
 mingw
 netfx-4.6.1-devpack
 ninja
+pkgconfiglite
