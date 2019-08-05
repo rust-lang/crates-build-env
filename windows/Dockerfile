@@ -53,4 +53,14 @@ RUN .\vcpkg-master\vcpkg install @(Get-Content C:\vc-packages.txt)
 # Tell the `vcpkg` crate to generate dynamically linked executables
 ENV VCPKGRS_DYNAMIC=1
 
+# Export environment from `vcvars64.bat` in powershell. This puts `cl.exe` and
+# others on our `PATH`.
+#
+# Powershell doesn't have an equivalent of `source`, so we use `cmd` to run
+# `vcvars64.bat`, then parse each environment variable and set it manually.
+# See https://stackoverflow.com/a/2124759.
+RUN cd 'C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Auxiliary\Build'; `
+    cmd /c 'vcvars64.bat & set' |                                                           `
+    %{ if ($_ -match '=') { $v = $_.split('='); [System.Environment]::SetEnvironmentVariable($v[0], $v[1], [System.EnvironmentVariableTarget]::Machine) } }
+
 CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
