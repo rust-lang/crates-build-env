@@ -1,10 +1,14 @@
 curl
+freetype
 libpq
 libsodium
 libssh2
+libusb
 openal-soft
 openssl
+portaudio
 portmidi
 sdl2
+sdl2-image
 sqlite3
 zlib
