@@ -11,8 +11,10 @@ fi
 # variable, to make the files the container writes not be owned by root, but by
 # the running host user.
 if [[ ! -z "${MAP_USER_ID+x}" ]]; then
-    adduser --no-create-home --disabled-login --gecos "" crates-build-env --ui "${MAP_USER_ID}" >/dev/null
-    exec sudo --preserve-env --set-home -u crates-build-env -- "$@"
+    if ! id "${MAP_USER_ID}" >/dev/null 2>&1; then
+        adduser --no-create-home --disabled-login --gecos "" crates-build-env --ui "${MAP_USER_ID}" >/dev/null
+    fi
+    exec sudo --preserve-env --set-home -u "#${MAP_USER_ID}" -- "$@"
 else
     exec "$@"
 fi
