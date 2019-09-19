@@ -19,6 +19,7 @@ cpp-7
 cron
 curl
 dmsetup
+docker.io
 dselect
 emacsen-common
 enchant
