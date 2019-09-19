@@ -14,7 +14,16 @@ if [[ ! -z "${MAP_USER_ID+x}" ]]; then
     if ! id "${MAP_USER_ID}" >/dev/null 2>&1; then
         adduser --no-create-home --disabled-login --gecos "" crates-build-env --ui "${MAP_USER_ID}" >/dev/null
     fi
-    exec sudo --preserve-env --set-home -u "#${MAP_USER_ID}" -- "$@"
+
+    if [[ ! -z "${MAP_GROUP_ID+x}" ]]; then
+        if ! getent group "${MAP_GROUP_ID}" >/dev/null 2>&1; then
+            addgroup --gid "${MAP_GROUP_ID}" crates-build-env-mapped-group >/dev/null
+        fi
+
+        exec sudo --preserve-env --set-home -g "#${MAP_GROUP_ID}" -u "#${MAP_USER_ID}" -- "$@"
+    else
+        exec sudo --preserve-env --set-home -u "#${MAP_USER_ID}" -- "$@"
+    fi
 else
     exec "$@"
 fi
