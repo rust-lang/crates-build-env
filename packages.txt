@@ -659,6 +659,7 @@ libpython3-stdlib
 libpython-dev
 libpython-stdlib
 libqhull7
+libqt5charts5-dev
 libqt5concurrent5
 libqt5core5a
 libqt5dbus5
@@ -988,6 +989,8 @@ python3-yaml
 python-dev
 python-minimal
 python-talloc
+qt3d5-dev
+qt5-default
 qt5-gtk-platformtheme
 qt5-qmake
 qt5-qmake-bin
@@ -996,6 +999,7 @@ qtbase5-dev
 qtbase5-dev-tools
 qtchooser
 qtdeclarative5-dev
+qttools5-dev
 qttranslations5-l10n
 rake
 readline-common
