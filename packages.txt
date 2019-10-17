@@ -449,6 +449,7 @@ libjson-c3
 libjsoncpp1
 libjson-glib-1.0-0
 libjson-glib-1.0-common
+libjudy-dev
 libk5crypto3
 libkadm5clnt-mit11
 libkadm5srv-mit11
