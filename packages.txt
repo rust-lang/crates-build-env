@@ -62,6 +62,7 @@ libapt-pkg5.0
 libapt-pkg-dev
 libarchive13
 libarchive-cpio-perl
+libarchive-dev
 libarchive-zip-perl
 libargon2-0
 libarmadillo8
