@@ -24,6 +24,7 @@ dselect
 emacsen-common
 enchant
 git
+gfortran
 gnupg
 golang
 gstreamer1.0-plugins-base
@@ -466,6 +467,7 @@ libkrb5-3
 libkrb5support0
 libksba8
 liblapack3
+liblapack-dev
 liblcms2-2
 liblcms2-dev
 libldap-2.4-2
