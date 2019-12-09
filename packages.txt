@@ -292,6 +292,7 @@ libgcc1
 libgcc-6-dev
 libgcc-7-dev
 libgcrypt20
+libgcrypt20-dev
 libgd3
 libgdal20
 libgdbm5
@@ -344,6 +345,9 @@ libgmp10
 libgnutls30
 libgomp1
 libgpg-error0
+libgpg-error-dev
+libgpgme11
+libgpgme-dev
 libgphoto2-6
 libgphoto2-l10n
 libgphoto2-port12
