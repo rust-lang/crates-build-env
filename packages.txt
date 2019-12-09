@@ -23,8 +23,8 @@ docker.io
 dselect
 emacsen-common
 enchant
-git
 gfortran
+git
 gnupg
 golang
 gstreamer1.0-plugins-base
