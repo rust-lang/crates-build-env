@@ -409,6 +409,7 @@ libhyphen0
 libibus-1.0-5
 libibus-1.0-dev
 libibverbs1
+libical-dev
 libice6
 libice-dev
 libicu60
