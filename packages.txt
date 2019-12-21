@@ -987,6 +987,7 @@ llvm
 nodejs
 openjdk-8-jre-headless
 perl
+php-dev
 policykit-1
 protobuf-compiler
 python3-dev
