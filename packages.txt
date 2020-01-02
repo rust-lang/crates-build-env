@@ -597,6 +597,7 @@ libopusfile0
 liborc-0.4-0
 libp11-kit0
 libpam0g
+libpam0g-dev
 libpam-cap
 libpam-modules
 libpam-modules-bin
