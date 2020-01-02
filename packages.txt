@@ -479,6 +479,7 @@ libldap-2.4-2
 libldap-common
 libldb1
 liblept5
+libleptonica-dev
 libllvm6.0
 libllvm7
 libllvm8
@@ -788,6 +789,7 @@ libtbb2
 libtcl8.6
 libtdb1
 libtesseract4
+libtesseract-dev
 libtevent0
 libtext-charwidth-perl
 libtext-iconv-perl
