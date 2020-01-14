@@ -985,6 +985,7 @@ libzmq5
 libzstd1
 libzvbi0
 libzvbi-common
+linux-headers-generic
 linux-libc-dev
 llvm
 nodejs
