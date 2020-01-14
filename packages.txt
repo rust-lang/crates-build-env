@@ -231,7 +231,7 @@ libegl1-mesa
 libegl1-mesa-dev
 libegl-mesa0
 libelektra-dev
-libelf1
+libelf-dev
 libenca0
 libenchant1c2a
 libencode-locale-perl
