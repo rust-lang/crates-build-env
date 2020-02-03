@@ -988,6 +988,7 @@ libzvbi-common
 linux-headers-generic
 linux-libc-dev
 llvm
+nettle-dev
 nodejs
 openjdk-8-jre-headless
 perl
