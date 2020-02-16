@@ -405,6 +405,8 @@ libhunspell-dev
 libhwloc5
 libhwloc-plugins
 libhx509-5-heimdal
+libhyperscan4
+libhyperscan-dev
 libhyphen0
 libibus-1.0-5
 libibus-1.0-dev
