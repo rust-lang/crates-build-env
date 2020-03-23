@@ -992,6 +992,7 @@ linux-libc-dev
 llvm
 nasm
 nettle-dev
+ninja-build
 nodejs
 openjdk-8-jre-headless
 perl
