@@ -984,6 +984,7 @@ libxxf86dga-dev
 libxxf86vm1
 libxxf86vm-dev
 libyaml-0-2
+libzfslinux-dev
 libzmq3-dev
 libzmq5
 libzstd1
