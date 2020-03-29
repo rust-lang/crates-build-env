@@ -5,6 +5,7 @@ automake
 autopoint
 autotools-dev
 binutils-arm-none-eabi
+bluetooth
 bsdmainutils
 build-essential
 bzip2
@@ -117,6 +118,7 @@ libblas3
 libblas-dev
 libblkid1
 libblkid-dev
+libbluetooth-dev
 libbluray2
 libbluray-dev
 libboost-filesystem1.62.0
