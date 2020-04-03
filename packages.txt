@@ -24,6 +24,7 @@ docker.io
 dselect
 emacsen-common
 enchant
+gcc-multilib
 gfortran
 git
 gnupg
