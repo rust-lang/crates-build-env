@@ -481,6 +481,7 @@ liblapack-dev
 liblcms2-2
 liblcms2-dev
 libldap-2.4-2
+libldap2-dev
 libldap-common
 libldb1
 liblept5
