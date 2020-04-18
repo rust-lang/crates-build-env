@@ -29,6 +29,7 @@ gfortran
 git
 gnupg
 golang
+graphicsmagick
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-pulseaudio
@@ -357,6 +358,7 @@ libgphoto2-l10n
 libgphoto2-port12
 libgpm2
 libgraphene-1.0-0
+libgraphicsmagick1-dev
 libgraphite2-3
 libgraphite2-dev
 libgsm1
