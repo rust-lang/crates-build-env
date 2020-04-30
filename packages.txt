@@ -109,7 +109,7 @@ libavcodec58
 libavcodec-dev
 libavformat58
 libavformat-dev
-libavresample1
+libavresample4
 libavresample-dev
 libavutil56
 libavutil-dev
@@ -125,7 +125,7 @@ libbluetooth-dev
 libbluray2
 libbluray-dev
 libboost-filesystem1.67.0
-libboost-filesystem1.71.1
+libboost-filesystem1.71.0
 libboost-iostreams1.67.0
 libboost-iostreams1.71.0
 libboost-system1.67.0
@@ -317,8 +317,8 @@ libgettextpo0
 libgettextpo-dev
 libgexiv2-2
 libgexiv2-dev
-libgfortran10
-libgfortran9
+libgfortran4
+libgfortran5
 libgfortran-10-dev
 libgif7
 libgirepository-1.0-1
@@ -674,7 +674,7 @@ libpython3.8-stdlib
 libpython3-dev
 libpython3-stdlib
 libpython-all-dev
-libpython-3-stdlib
+libpython3-stdlib
 libqhull7
 libqt5charts5-dev
 libqt5concurrent5
