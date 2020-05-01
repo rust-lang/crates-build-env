@@ -16,8 +16,6 @@ cmake
 comerr-dev
 cpp
 cpp-10
-cpp-8
-cpp-9
 cron
 curl
 dmsetup
@@ -71,8 +69,6 @@ libarchive-zip-perl
 libargon2-0
 libarmadillo9
 libarpack2
-libasan4
-libasan5
 libasan6
 libasn1-8-heimdal
 libasound2
@@ -318,7 +314,6 @@ libgettextpo-dev
 libgexiv2-2
 libgexiv2-dev
 libgfortran-10-dev
-libgfortran4
 libgfortran5
 libgif7
 libgirepository-1.0-1
@@ -560,9 +555,6 @@ libnss-systemd
 libnuma1
 libobjc-10-dev
 libobjc4
-libobjc-7-dev
-libobjc-8-dev
-libobjc-9-dev
 libodbc1
 libogdi4.1
 libogg0
@@ -772,9 +764,6 @@ libssl-dev
 libssl-doc
 libstdc++-10-dev
 libstdc++6
-libstdc++-7-dev
-libstdc++-8-dev
-libstdc++-9-dev
 libstdc++-arm-none-eabi-newlib
 libsub-name-perl
 libsuperlu5
@@ -1006,7 +995,6 @@ python3-dev
 python3-distutils
 python3-gi
 python3-lib2to3
-python3-minimal
 python3-minimal
 python3-netifaces
 python3-talloc
