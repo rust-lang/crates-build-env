@@ -711,6 +711,7 @@ librtmp1
 librubberband2
 libruby2.7
 libsamplerate0
+libsane
 libsane1
 libsane-common
 libsasl2-2
