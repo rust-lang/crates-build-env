@@ -4,7 +4,7 @@ IFS=$'\n\t'
 
 # Ensure packages lists are sorted
 for file in packages; do
-    cat "${file}.txt" | sort > "/tmp/sorted-${file}.txt"
+    cat "${file}.txt" | sort -u > "/tmp/sorted-${file}.txt"
     if ! diff -u "/tmp/sorted-${file}.txt" "${file}.txt"; then
         echo "Lint error: ${file}.txt is not sorted"
         exit 1
