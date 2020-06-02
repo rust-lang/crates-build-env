@@ -103,6 +103,10 @@ libavahi-core7
 libavc1394-0
 libavcodec58
 libavcodec-dev
+libavdevice58
+libavdevice-dev
+libavfilter7
+libavfilter-dev
 libavformat58
 libavformat-dev
 libavresample4
