@@ -5,6 +5,7 @@ automake
 autopoint
 autotools-dev
 binutils-arm-none-eabi
+bison
 bluetooth
 bsdmainutils
 build-essential
@@ -1015,6 +1016,7 @@ qtdeclarative5-dev
 qttools5-dev
 qttranslations5-l10n
 rake
+re2c
 readline-common
 rsyslog
 ruby
