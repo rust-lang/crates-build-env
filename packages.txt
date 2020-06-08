@@ -985,6 +985,7 @@ libzvbi-common
 linux-headers-generic
 linux-libc-dev
 llvm
+musl-tools
 nasm
 nettle-dev
 ninja-build
