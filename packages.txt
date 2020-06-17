@@ -985,6 +985,7 @@ libzvbi-common
 linux-headers-generic
 linux-libc-dev
 llvm
+mpich
 musl-tools
 nasm
 nettle-dev
