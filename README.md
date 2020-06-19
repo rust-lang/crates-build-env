@@ -1,7 +1,7 @@
 # Build environment for Rust crates
 
 This repository contains the source of the Docker container the Rust project
-uses to build third-party crates. It is based on **Ubuntu 18.04**, and contains
+uses to build third-party crates. It is based on **Ubuntu 20.04**, and contains
 all the native dependencies used by the Rust crates we know of.
 
 ## Adding new dependencies
