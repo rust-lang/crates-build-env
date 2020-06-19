@@ -248,6 +248,7 @@ libestr0
 libev4
 libev-dev
 libevdev2
+libevdev-dev
 libevent-2.1-7
 libevent-core-2.1-7
 libevent-dev
