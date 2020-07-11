@@ -738,6 +738,7 @@ libshout3
 libsigc++-2.0-0v5
 libsigsegv2
 libslang2
+libslang2-dev
 libsm6
 libsmartcols1
 libsmbclient
