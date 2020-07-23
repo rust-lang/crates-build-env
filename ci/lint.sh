@@ -1,6 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 IFS=$'\n\t'
+export LC_ALL=C
 
 # Ensure packages lists are sorted
 for file in packages; do
