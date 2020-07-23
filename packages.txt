@@ -1020,6 +1020,7 @@ qtchooser
 qtdeclarative5-dev
 qttools5-dev
 qttranslations5-l10n
+r-base-core
 rake
 re2c
 readline-common
