@@ -61,6 +61,7 @@ liballegro-video5.2
 liballegro5-dev
 liballegro5.2
 libapparmor1
+libappindicator3-dev
 libapt-pkg-dev
 libapt-pkg6.0
 libarchive-cpio-perl
