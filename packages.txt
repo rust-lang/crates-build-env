@@ -445,6 +445,7 @@ libisccc161
 libisccfg163
 libisl22
 libiso9660-11
+libiso9660-dev
 libitm1
 libjack-jackd2-0
 libjansson4
