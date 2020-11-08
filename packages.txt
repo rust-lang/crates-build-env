@@ -952,6 +952,7 @@ libxmu-headers
 libxmu6
 libxmuu-dev
 libxmuu1
+libxosd-dev
 libxpm-dev
 libxpm4
 libxrandr-dev
