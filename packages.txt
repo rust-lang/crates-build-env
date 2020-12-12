@@ -759,6 +759,7 @@ libsoup2.4-1
 libsoup2.4-dev
 libsoxr0
 libspatialite7
+libspeechd-dev
 libspeex1
 libsphinxbase-dev
 libsphinxbase3
