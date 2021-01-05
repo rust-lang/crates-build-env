@@ -619,6 +619,7 @@ libparse-debianchangelog-perl
 libparted-dev
 libparted-fs-resize0
 libparted2
+libpcap-dev
 libpciaccess-dev
 libpciaccess0
 libpcre16-3
