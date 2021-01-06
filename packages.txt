@@ -996,6 +996,7 @@ mpich
 musl-tools
 nasm
 nettle-dev
+ngspice
 ninja-build
 nodejs
 openjdk-8-jre-headless
