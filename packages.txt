@@ -832,6 +832,7 @@ libusb-dev
 libutempter0
 libuuid1
 libuv1
+liblxc1
 libv4l-0
 libv4lconvert0
 libva-drm2
@@ -992,6 +993,7 @@ libzvbi0
 linux-headers-generic
 linux-libc-dev
 llvm
+lxc-dev
 mpich
 musl-tools
 nasm
