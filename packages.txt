@@ -501,6 +501,7 @@ liblua5.3-dev
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblwres161
+liblxc1
 liblz4-1
 liblzma-dev
 liblzma5
@@ -832,7 +833,6 @@ libusb-dev
 libutempter0
 libuuid1
 libuv1
-liblxc1
 libv4l-0
 libv4lconvert0
 libva-drm2
