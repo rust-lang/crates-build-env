@@ -501,6 +501,7 @@ liblua5.3-dev
 liblwp-mediatypes-perl
 liblwp-protocol-https-perl
 liblwres161
+liblxc1
 liblz4-1
 liblzma-dev
 liblzma5
@@ -992,6 +993,7 @@ libzvbi0
 linux-headers-generic
 linux-libc-dev
 llvm
+lxc-dev
 mpich
 musl-tools
 nasm
