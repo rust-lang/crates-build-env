@@ -171,6 +171,7 @@ libcfitsio8
 libcgi-fast-perl
 libcgi-pm-perl
 libcharls2
+libchewing3-dev
 libchromaprint1
 libcilkrts5
 libclang-6.0-dev
