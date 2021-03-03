@@ -711,6 +711,7 @@ libroken18-heimdal
 librsvg2-2
 librsvg2-common
 librsvg2-dev
+librtmidi-dev
 librtmp1
 librubberband2
 libruby2.7
