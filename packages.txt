@@ -448,6 +448,7 @@ libisl22
 libiso9660-11
 libiso9660-dev
 libitm1
+libiw-dev
 libjack-jackd2-0
 libjansson4
 libjavascriptcoregtk-4.0-18
