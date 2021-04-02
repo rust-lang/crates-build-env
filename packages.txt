@@ -245,6 +245,7 @@ libencode-locale-perl
 libepoxy-dev
 libepoxy0
 libepsilon1
+liberfa-dev
 liberror-perl
 libestr0
 libev-dev
