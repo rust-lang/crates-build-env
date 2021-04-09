@@ -1069,3 +1069,4 @@ xtrans-dev
 xxd
 xz-utils
 zlib1g-dev
+libvncserver-dev
