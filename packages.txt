@@ -844,6 +844,7 @@ libva2
 libvdpau-va-gl1
 libvdpau1
 libvisual-0.4-0
+libvncserver-dev
 libvorbis-dev
 libvorbis0a
 libvorbisenc2
