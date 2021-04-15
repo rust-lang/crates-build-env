@@ -1,0 +1,50 @@
+---
+
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request: {}
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v2
+
+      - name: Run the custom linter
+        run: ./lint.sh
+
+  build:
+    name: Build images
+    runs-on: ubuntu-latest
+    needs: [lint]
+
+    # Use the same job to build all Linux-based images
+    strategy:
+      matrix:
+        image:
+          - linux
+          - linux-micro
+
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v2
+
+      - name: Build the Docker image
+        run: docker build -t ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest ${{ matrix.image }}/
+
+      - name: Authenticate with GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+
+      - name: Upload the Docker image to GitHub Container Registry
+        run: docker push ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
