@@ -1,41 +1,52 @@
-# Build environment for Rust crates
+# Build environment for third-party Rust crates
 
-This repository contains the source of the Docker container the Rust project
-uses to build third-party crates. It is based on **Ubuntu 20.04**, and contains
-all the native dependencies used by the Rust crates we know of.
+This repository contains the source code and the tooling to produce the Docker
+containers used by [Crater] and [docs.rs] to build third-party crates. The
+contents of this repository are released under the MIT license.
+
+ The images **do not** contain a Rust toolchain in them: you'll need to manually
+ mount the toolchain(s) you want to use inside the container.
 
 ## Adding new dependencies
 
-If your crate fails to build on one of the services that uses this Docker
-image, please either open an issue with the name of the packages you need or
-send a pull request that adds the packages to `packages.txt` or
-`packages-backports.txt` (if the package is in the `stretch-backports` suite).
+If your crate fails to build on [Crater] or [docs.rs], you can:
 
-## Using the Docker image
+* [Open an issue][new-issue-linux] with the names of the packages you need
+* Send a PR adding the package names to the `linux/packages.txt` file
 
-The Docker image is automatically built after a commit is pushed to master, and
-it's available [on Docker Hub][dockerhub] as `rustops/crates-build-env`. You
-can get it with:
+Note that the package needs to be available in the **Ubuntu 20.04** archives.
 
-```
-$ docker pull rustops/crates-build-env
-```
+## Available containers
 
-The image **does not** contain a Rust toolchain in it: you need to manually
-mount the toolchain you want to use inside the container.
+### `linux`
 
-### Mapping the user id between the container and the system
+This container is based on **Ubuntu 20.04** and includes all the native
+dependencies used by Rust crates we know of. It's used as the build environment
+for the [Crater] and [docs.rs] projects.
 
-By default, the user id inside a Docker container is `0` (root). That doesn't
-cause any security risk thanks to the container isolation, but it might pose
-some problems when the container writes into directories mounted from the host,
-since all the files in those directories will be owned by root.
-
-This image allows to fix the issue by setting the `MAP_USER_ID` environment
-variable to the user id you want to run the files. For example:
+You can pull this container by running:
 
 ```
-$ docker run --rm -e MAP_USER_ID=1000 -it rustops/crates-build-env bash
+docker pull ghcr.io/rust-lang/crates-build-env/linux:latest
 ```
 
-[dockerhub]: https://hub.docker.com/r/rustops/crates-build-env/
+### `linux-micro`
+
+This container is based on **Ubuntu 20.04** and includes the minimum set of
+dependencies needed to compile simple Rust programs. It's used by the test
+suites of [Crater] and [docs.rs] and during local development.
+
+You can pull this container by running:
+
+```
+docker pull ghcr.io/rust-lang/crates-build-env/linux-micro:latest
+```
+
+### `windows`
+
+This *work in progress* container is based on **Windows 2019**. It's currently
+unused and unmaintained, and no automated builds for it are available.
+
+[Crater]: https://github.com/rust-lang/crater
+[docs.rs]: https://github.com/rust-lang/docs.rs
+[new-issue-linux]: https://github.com/rust-lang/crates-build-env/issues/new?template=missing-linux-packages.md
