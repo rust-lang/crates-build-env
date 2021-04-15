@@ -1,8 +1,5 @@
 # escape=`
-
-ARG BASE_IMAGE_VER=:1803
-
-FROM mcr.microsoft.com/windows/servercore${BASE_IMAGE_VER}
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 # Install the Visual C++ Build tools
 #
