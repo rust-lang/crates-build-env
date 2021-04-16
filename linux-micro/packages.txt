@@ -1,2 +1,4 @@
 build-essential
+ca-certificates
+docker.io
 libssl-dev
