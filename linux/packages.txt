@@ -492,6 +492,7 @@ libldap2-dev
 libldb2
 liblept5
 libleptonica-dev
+liblldb-dev
 libllvm6.0
 libllvm7
 libllvm8
