@@ -850,6 +850,7 @@ libvorbis-dev
 libvorbis0a
 libvorbisenc2
 libvorbisfile3
+libvpx-dev
 libvpx6
 libvtk6.3
 libwacom-bin
