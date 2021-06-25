@@ -240,6 +240,7 @@ libegl1-mesa
 libegl1-mesa-dev
 libelf-dev
 libenca0
+libenchant-2-dev
 libenchant1c2a
 libencode-locale-perl
 libepoxy-dev
