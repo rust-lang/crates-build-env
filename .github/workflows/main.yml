@@ -7,6 +7,10 @@ on:
       - master
   pull_request: {}
 
+concurrency: 
+  group: ${{ format('{0}/{1}', github.repository_owner, github.ref) }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     name: Lint
