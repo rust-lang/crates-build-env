@@ -273,6 +273,7 @@ libfcgi-perl
 libfdisk1
 libffi-dev
 libffi7
+libfftw3-dev
 libfftw3-double3
 libfile-copy-recursive-perl
 libfile-fcntllock-perl
@@ -486,6 +487,7 @@ libkrb5support0
 libksba8
 liblapack-dev
 liblapack3
+liblapacke-dev
 liblcms2-2
 liblcms2-dev
 libldap-2.4-2
@@ -518,6 +520,7 @@ libmail-sendmail-perl
 libmailtools-perl
 libmariadbclient-dev
 libmariadbclient-dev-compat
+libmetis-dev
 libmilter-dev
 libminizip1
 libmirclient-dev
@@ -539,6 +542,7 @@ libmpfr6
 libmpg123-0
 libmpx2
 libmtdev1
+libmumps-seq-dev
 libmysqlclient21
 libncurses5
 libncurses5-dev
@@ -579,6 +583,7 @@ libomp5
 libopenal-data
 libopenal-dev
 libopenal1
+libopenblas-dev
 libopencv-calib3d4.2
 libopencv-contrib4.2
 libopencv-core4.2
@@ -782,6 +787,7 @@ libstdc++-10-dev
 libstdc++-arm-none-eabi-newlib
 libstdc++6
 libsub-name-perl
+libsuitesparse-dev
 libsuperlu5
 libsvm-dev
 libsvm3
