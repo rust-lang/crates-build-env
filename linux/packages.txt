@@ -21,6 +21,7 @@ cron
 curl
 dmsetup
 docker.io
+doctest-dev
 dselect
 emacsen-common
 enchant
@@ -832,6 +833,7 @@ libudev-dev
 libudev1
 libudf-dev
 libudf0
+libunistring-dev
 libunistring2
 libunwind-dev
 libunwind8
