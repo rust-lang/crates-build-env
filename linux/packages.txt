@@ -1011,6 +1011,7 @@ libzvbi0
 linux-headers-generic
 linux-libc-dev
 llvm
+llvm-12
 lxc-dev
 mpich
 musl-tools
