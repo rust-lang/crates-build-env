@@ -215,6 +215,7 @@ libdbus-glib-1-dev
 libdc1394-22
 libdconf1
 libdebconfclient0
+libdeflate-dev
 libdevmapper-dev
 libdevmapper-event1.02.1
 libdevmapper1.02.1
