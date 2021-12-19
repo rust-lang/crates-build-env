@@ -399,6 +399,7 @@ libharfbuzz0b
 libhcrypto4-heimdal
 libhdf4-0-alt
 libhdf5-103
+libhdf5-dev
 libhdf5-openmpi-103
 libheimbase1-heimdal
 libheimntlm0-heimdal
