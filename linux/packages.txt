@@ -480,6 +480,7 @@ libkadm5srv-mit11
 libkdb5-9
 libkeyutils1
 libkf5i18n-dev
+libkf5kdelibs4support5-bin
 libklibc
 libkmlbase1
 libkmldom1
