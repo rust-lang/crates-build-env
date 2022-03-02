@@ -425,6 +425,7 @@ libhyperscan5
 libhyphen0
 libibus-1.0-5
 libibus-1.0-dev
+libibverbs-dev
 libibverbs1
 libical-dev
 libice-dev
@@ -715,6 +716,7 @@ libqt5widgets5
 libqt5xml5
 libquadmath0
 libraw1394-11
+librdmacm-dev
 librdmacm1
 libreadline-dev
 libreadline8
@@ -1026,6 +1028,7 @@ nodejs
 openjdk-8-jre-headless
 perl
 php-dev
+pkg-config
 policykit-1
 protobuf-compiler
 python-dev
