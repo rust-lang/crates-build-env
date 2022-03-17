@@ -235,6 +235,7 @@ libdrm2
 libdumb1
 libdumb1-dev
 libdv4
+libdw-dev
 libebur128-1
 libedit2
 libegl-mesa0
