@@ -481,6 +481,7 @@ libkadm5clnt-mit11
 libkadm5srv-mit11
 libkdb5-9
 libkeyutils1
+libkf5config-dev
 libkf5i18n-dev
 libkf5kdelibs4support5-bin
 libklibc
