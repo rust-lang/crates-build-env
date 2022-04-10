@@ -507,6 +507,7 @@ libleptonica-dev
 libllvm6.0
 libllvm7
 libllvm8
+liblmdb-dev
 liblocale-gettext-perl
 liblsan0
 libltdl-dev
