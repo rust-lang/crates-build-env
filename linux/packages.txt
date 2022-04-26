@@ -1067,6 +1067,7 @@ ruby-net-telnet
 ruby-power-assert
 ruby-test-unit
 ruby2.7
+ruby2.7-dev
 rubygems-integration
 samba-libs
 sane-utils
