@@ -692,10 +692,10 @@ libpython2.7-minimal
 libpython2.7-stdlib
 libpython3-dev
 libpython3-stdlib
-libpython3.10
-libpython3.10-dev
-libpython3.10-minimal
-libpython3.10-stdlib
+libpython3.9
+libpython3.9-dev
+libpython3.9-minimal
+libpython3.9-stdlib
 libqhull7
 libqt5charts5-dev
 libqt5concurrent5
