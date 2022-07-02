@@ -723,6 +723,7 @@ librdmacm-dev
 librdmacm1
 libreadline-dev
 libreadline8
+libreofficekit-dev
 librest-0.7-0
 librhash0
 libroken18-heimdal
