@@ -901,6 +901,7 @@ libwww-perl
 libwww-robotrules-perl
 libwxbase3.0-0v5
 libwxgtk3.0-gtk3-0v5
+libwxgtk3.0-gtk3-dev
 libx11-6
 libx11-data
 libx11-dev
