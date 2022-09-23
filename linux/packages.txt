@@ -1026,6 +1026,7 @@ linux-libc-dev
 llvm
 llvm-12
 lxc-dev
+mdbtools-dev
 mpich
 musl-tools
 nasm
