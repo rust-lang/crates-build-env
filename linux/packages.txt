@@ -1027,6 +1027,7 @@ llvm
 llvm-12
 lxc-dev
 mdbtools-dev
+mosquitto-dev
 mpich
 musl-tools
 nasm
