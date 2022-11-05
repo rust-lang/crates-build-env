@@ -128,6 +128,7 @@ libblkid1
 libbluetooth-dev
 libbluray-dev
 libbluray2
+libboost-dev
 libboost-filesystem1.67.0
 libboost-filesystem1.71.0
 libboost-iostreams1.67.0
@@ -680,6 +681,7 @@ libprotobuf-dev
 libprotobuf-lite17
 libprotobuf17
 libprotoc17
+libprotozero-dev
 libproxy1v5
 libpsl5
 libpsm-infinipath1
