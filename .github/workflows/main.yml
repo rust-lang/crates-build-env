@@ -46,7 +46,7 @@ jobs:
 
       # We currently only dual target linux/amd64 for the linux-micro image since the linux image installs packages for which no arm64 build has been published.
       - name: Build the Docker image
-        run: docker buildx build {{ matrix.image == 'linux-micro' && '--platform linux/amd64,linux/arm64' || '' }} -t ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest ${{ matrix.image }}/
+        run: docker buildx build ${{ matrix.image == 'linux-micro' && '--platform linux/amd64,linux/arm64' || '' }} -t ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest ${{ matrix.image }}/
 
       - name: Authenticate with GitHub Container Registry
         uses: docker/login-action@v1
