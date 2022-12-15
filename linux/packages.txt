@@ -1030,6 +1030,7 @@ llvm
 llvm-12
 lxc-dev
 mdbtools-dev
+meson
 mosquitto-dev
 mpich
 musl-tools
