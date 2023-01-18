@@ -668,8 +668,10 @@ libpython2.7
 libpython2.7-dev
 libpython2.7-minimal
 libpython2.7-stdlib
-libpython3-dev
-libpython3-stdlib
+libpython3.10
+libpython3.10-dev
+libpython3.10-minimal
+libpython3.10-stdlib
 libqt5charts5-dev
 libqt5concurrent5
 libqt5core5a
