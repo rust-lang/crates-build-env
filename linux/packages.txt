@@ -463,6 +463,7 @@ libjudy-dev
 libk5crypto3
 libkadm5clnt-mit12
 libkadm5srv-mit12
+libkdb5-10
 libkeyutils1
 libkf5config-dev
 libkf5i18n-dev
