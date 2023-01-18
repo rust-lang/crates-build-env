@@ -628,6 +628,7 @@ libpcsclite-dev
 libpcsclite1
 libperl4-corelibs-perl
 libperl5.34
+libpgm-5.30-0
 libphysfs-dev
 libphysfs1
 libpipeline1
