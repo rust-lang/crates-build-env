@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:jammy
 
 # Install the packages contained in `packages.txt`
 COPY packages.txt /opt/crates-build-env/packages.txt
