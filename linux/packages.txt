@@ -848,6 +848,7 @@ libvorbis0a
 libvorbisenc2
 libvorbisfile3
 libvpx-dev
+libvpx7
 libwacom-bin
 libwacom-common
 libwavpack1
