@@ -591,6 +591,7 @@ libopencv-videostab4.5
 libopencv-viz4.5
 libopencv4.5-java
 libopencv4.5d-jni
+libopenexr25
 libopengl0
 libopenjp2-7
 libopenmpi3
