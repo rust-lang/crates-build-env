@@ -14,13 +14,13 @@ If your crate fails to build on [Crater] or [docs.rs], you can:
 * [Open an issue][new-issue-linux] with the names of the packages you need
 * Send a PR adding the package names to the `linux/packages.txt` file
 
-Note that the package needs to be available in the **Ubuntu 20.04** archives.
+Note that the package needs to be available in the **Ubuntu 22.04** archives.
 
 ## Available containers
 
 ### `linux`
 
-This container is based on **Ubuntu 20.04** and includes all the native
+This container is based on **Ubuntu 22.04** and includes all the native
 dependencies used by Rust crates we know of. It's used as the build environment
 for the [Crater] and [docs.rs] projects.
 
@@ -32,7 +32,7 @@ docker pull ghcr.io/rust-lang/crates-build-env/linux:latest
 
 ### `linux-micro`
 
-This container is based on **Ubuntu 20.04** and includes the minimum set of
+This container is based on **Ubuntu 22.04** and includes the minimum set of
 dependencies needed to compile simple Rust programs. It's used by the test
 suites of [Crater] and [docs.rs] and during local development.
 
