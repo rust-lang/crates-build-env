@@ -437,6 +437,7 @@ libisc-export1105
 libisc1105
 libisccc161
 libisccfg163
+libisl23
 libiso9660-11
 libiso9660-dev
 libitm1
