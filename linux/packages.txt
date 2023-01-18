@@ -728,6 +728,7 @@ libsemanage-common
 libsemanage2
 libsensors5
 libsepol-dev
+libsepol2
 libsfml-audio2.5
 libsfml-dev
 libsfml-graphics2.5
