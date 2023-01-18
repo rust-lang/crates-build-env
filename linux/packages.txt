@@ -156,6 +156,7 @@ libcdio-cdda2
 libcdio-dev
 libcdio-paranoia-dev
 libcdio-paranoia2
+libcdio19
 libcdparanoia-dev
 libcdparanoia0
 libcfitsio-dev
