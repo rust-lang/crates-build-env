@@ -538,6 +538,7 @@ libnet-smtp-ssl-perl
 libnet-ssleay-perl
 libnetcdf-c++4
 libnetcdf19
+libnettle8
 libnewlib-arm-none-eabi
 libnewlib-dev
 libnewt0.52
