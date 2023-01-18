@@ -66,6 +66,7 @@ libarchive-dev
 libarchive-zip-perl
 libarchive13
 libargon2-0
+libarmadillo10
 libarpack2
 libasan6
 libasn1-8-heimdal
