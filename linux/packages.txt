@@ -461,6 +461,8 @@ libjson-glib-1.0-common
 libjsoncpp25
 libjudy-dev
 libk5crypto3
+libkadm5clnt-mit12
+libkadm5srv-mit12
 libkeyutils1
 libkf5config-dev
 libkf5i18n-dev
