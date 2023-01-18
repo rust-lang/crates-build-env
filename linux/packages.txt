@@ -305,6 +305,7 @@ libgdm-dev
 libgdm1
 libgeoip1
 libgeos-c1v5
+libgeos3.10.2
 libgeotiff5
 libgettextpo-dev
 libgettextpo0
