@@ -146,6 +146,7 @@ libcairo2-dev
 libcap-ng0
 libcap2
 libcap2-bin
+libcapnp-0.8.0
 libcapnp-dev
 libcapstone-dev
 libcc1-0
