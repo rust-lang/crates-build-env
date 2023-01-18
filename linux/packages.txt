@@ -514,6 +514,7 @@ libmetis-dev
 libmilter-dev
 libminizip1
 libmircommon-dev
+libmircommon8
 libmircookie-dev
 libmircookie2
 libmircore-dev
