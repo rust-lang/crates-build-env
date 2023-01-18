@@ -725,6 +725,7 @@ libsecret-common
 libselinux1
 libselinux1-dev
 libsemanage-common
+libsemanage2
 libsensors5
 libsepol-dev
 libsfml-audio2.5
