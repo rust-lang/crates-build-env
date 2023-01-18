@@ -122,6 +122,9 @@ libbluetooth-dev
 libbluray-dev
 libbluray2
 libboost-dev
+libboost-filesystem1.74.0
+libboost-iostreams1.74.0
+libboost-system1.74.0
 libbrotli1
 libbs2b0
 libbsd0
