@@ -769,6 +769,7 @@ libssh-gcrypt-4
 libssh2-1
 libssl-dev
 libssl-doc
+libssl3
 libstatgrab-dev
 libstdc++-10-dev
 libstdc++-arm-none-eabi-newlib
