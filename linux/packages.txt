@@ -197,6 +197,7 @@ libdbus-1-3
 libdbus-1-dev
 libdbus-glib-1-2
 libdbus-glib-1-dev
+libdc1394-25
 libdconf1
 libdebconfclient0
 libdeflate-dev
