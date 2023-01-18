@@ -524,6 +524,7 @@ libmodplug1
 libmount1
 libmp3lame0
 libmpc3
+libmpdec3
 libmpfr6
 libmpg123-0
 libmtdev1
