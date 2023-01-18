@@ -207,6 +207,7 @@ libdevmapper1.02.1
 libdmx-dev
 libdmx1
 libdns-export1110
+libdns1110
 libdouble-conversion3
 libdpkg-perl
 libdrm-amdgpu1
