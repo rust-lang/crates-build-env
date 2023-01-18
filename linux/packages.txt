@@ -652,6 +652,8 @@ libpq5
 libprocps8
 libproj22
 libprotobuf-dev
+libprotobuf-lite23
+libprotobuf23
 libprotozero-dev
 libproxy1v5
 libpsl5
