@@ -149,6 +149,7 @@ libcap2-bin
 libcapnp-0.8.0
 libcapnp-dev
 libcapstone-dev
+libcapstone4
 libcc1-0
 libcdio-cdda-dev
 libcdio-cdda2
