@@ -628,7 +628,7 @@ libpcsclite-dev
 libpcsclite1
 libperl4-corelibs-perl
 libperl5.34
-libpgm-5.30-0
+libpgm-5.3-0
 libphysfs-dev
 libphysfs1
 libpipeline1
@@ -643,6 +643,7 @@ libpocketsphinx-dev
 libpocketsphinx3
 libpolkit-agent-1-0
 libpolkit-gobject-1-0
+libpoppler118
 libpopt0
 libpostproc-dev
 libpostproc55
