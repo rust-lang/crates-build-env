@@ -672,6 +672,7 @@ libpython3.10
 libpython3.10-dev
 libpython3.10-minimal
 libpython3.10-stdlib
+libqhull8.0
 libqt5charts5-dev
 libqt5concurrent5
 libqt5core5a
