@@ -387,6 +387,7 @@ libhdf5-dev
 libhdf5-openmpi-103
 libheimbase1-heimdal
 libheimntlm0-heimdal
+libhogweed6
 libhtml-form-perl
 libhtml-format-perl
 libhtml-parser-perl
