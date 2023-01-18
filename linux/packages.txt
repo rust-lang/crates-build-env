@@ -293,6 +293,7 @@ libgcc1
 libgcrypt20
 libgcrypt20-dev
 libgd3
+libgdal30
 libgdbm-compat4
 libgdbm6
 libgdcm3.0
