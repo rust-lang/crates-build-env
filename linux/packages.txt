@@ -110,6 +110,7 @@ libavformat-dev
 libavformat58
 libavutil-dev
 libavutil56
+libayatana-appindicator3-dev
 libbdplus0
 libbind-dev
 libbind9-161
