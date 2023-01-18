@@ -188,6 +188,7 @@ libcurl3-gnutls
 libcurl4
 libcwidget4
 libdaemon0
+libdap27
 libdapclient6v5
 libdata-dump-perl
 libdatrie1
