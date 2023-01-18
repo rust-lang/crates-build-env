@@ -422,6 +422,7 @@ libidn12
 libidn2-0
 libiec61883-0
 libieee1284-3
+libilmbase25
 libinput-bin
 libinput10
 libintl-perl
