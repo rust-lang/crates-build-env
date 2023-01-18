@@ -1032,6 +1032,7 @@ re2c
 readline-common
 rsyslog
 ruby
+ruby-dev
 ruby-did-you-mean
 ruby-minitest
 ruby-net-telnet
