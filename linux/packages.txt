@@ -161,6 +161,7 @@ libcdparanoia-dev
 libcdparanoia0
 libcfitsio-dev
 libcfitsio-doc
+libcfitsio9
 libcgi-fast-perl
 libcgi-pm-perl
 libcharls2
