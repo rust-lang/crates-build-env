@@ -455,8 +455,10 @@ libjpeg8-dev
 libjs-jquery
 libjs-jquery-metadata
 libjs-jquery-tablesorter
+libjson-c5
 libjson-glib-1.0-0
 libjson-glib-1.0-common
+libjsoncpp25
 libjudy-dev
 libk5crypto3
 libkeyutils1
