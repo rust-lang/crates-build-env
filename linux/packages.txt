@@ -417,6 +417,7 @@ libice6
 libicu-dev
 libicu-le-hb-dev
 libicu-le-hb0
+libicu70
 libidn2-0
 libiec61883-0
 libieee1284-3
