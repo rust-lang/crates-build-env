@@ -852,6 +852,7 @@ libvpx7
 libvtk9.1
 libwacom-bin
 libwacom-common
+libwacom9
 libwavpack1
 libwayland-bin
 libwayland-client0
