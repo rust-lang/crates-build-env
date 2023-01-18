@@ -865,6 +865,7 @@ libwbclient0
 libwebkit2gtk-4.0-37
 libwebkit2gtk-4.0-dev
 libwebp-dev
+libwebp7
 libwebpdemux2
 libwebpmux3
 libwind0-heimdal
