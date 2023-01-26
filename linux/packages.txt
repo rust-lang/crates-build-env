@@ -132,6 +132,7 @@ libbsd0
 libbtrfsutil-dev
 libbz2-1.0
 libbz2-dev
+libc++-dev
 libc-ares-dev
 libc-ares2
 libc-bin
