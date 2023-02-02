@@ -703,6 +703,7 @@ libreadline8
 libreofficekit-dev
 librest-0.7-0
 librhash0
+librlottie-dev
 libroken18-heimdal
 librsvg2-2
 librsvg2-common
