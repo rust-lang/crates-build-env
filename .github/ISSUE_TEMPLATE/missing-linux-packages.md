@@ -8,9 +8,9 @@ assignees: ''
 ---
 
 <!-- Thanks for reporting this issue!
-     Please remember our build environment is based on Ubuntu 20.04 LTS,
+     Please remember our build environment is based on Ubuntu 22.04 LTS,
      so the packages you're requesting need to be available in its
      repositories. -->
 
 **Affected crates:** foo, foo-sys
-**Ubuntu 20.04 packages to install:** libfoo-dev
+**Ubuntu 22.04 packages to install:** libfoo-dev
