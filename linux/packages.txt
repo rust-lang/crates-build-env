@@ -5,6 +5,7 @@ automake
 autopoint
 autotools-dev
 binutils-arm-none-eabi
+binutils-mingw-w64-x86-64
 bison
 bluetooth
 bsdmainutils
