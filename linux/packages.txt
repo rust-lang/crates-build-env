@@ -253,6 +253,7 @@ libexiv2-27
 libexiv2-dev
 libexpat1
 libexpat1-dev
+libext2fs-dev
 libext2fs2
 libfabric1
 libfakeroot
