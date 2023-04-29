@@ -600,6 +600,7 @@ libopengl0
 libopenjp2-7
 libopenmpi3
 libopenmpt0
+libopenslide-dev
 libopus-dev
 libopus0
 libopusfile0
