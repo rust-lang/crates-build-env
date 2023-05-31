@@ -818,6 +818,9 @@ libtinfo5
 libtk8.6
 libtool
 libtool-bin
+libtracecmd-dev
+libtraceevent-dev
+libtracefs-dev
 libtry-tiny-perl
 libtsan0
 libtwolame0
