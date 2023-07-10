@@ -800,6 +800,7 @@ libtalloc2
 libtasn1-6
 libtbb2
 libtcl8.6
+libtdb-dev
 libtdb1
 libtesseract-dev
 libtesseract4
