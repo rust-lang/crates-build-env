@@ -505,6 +505,7 @@ liblwp-protocol-https-perl
 liblwres161
 liblxc1
 liblz4-1
+liblz4-dev
 liblzma-dev
 liblzma5
 liblzo2-2
@@ -753,6 +754,7 @@ libsm6
 libsmartcols1
 libsmbclient
 libsmbclient-dev
+libsnappy-dev
 libsnappy1v5
 libsndfile1
 libsndio-dev
@@ -1004,6 +1006,7 @@ libyaml-0-2
 libzfslinux-dev
 libzmq3-dev
 libzmq5
+libzstd-dev
 libzstd1
 libzvbi-common
 libzvbi0
