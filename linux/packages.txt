@@ -660,6 +660,7 @@ libproj22
 libprotobuf-dev
 libprotobuf-lite23
 libprotobuf23
+libprotoc-dev
 libprotoc23
 libprotozero-dev
 libproxy1v5
