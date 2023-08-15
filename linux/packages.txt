@@ -1013,6 +1013,7 @@ libzvbi-common
 libzvbi0
 linux-headers-generic
 linux-libc-dev
+lld
 llvm
 llvm-12
 lxc-dev
@@ -1082,6 +1083,7 @@ udev
 uuid-dev
 va-driver-all
 vdpau-driver-all
+wasi-libc
 wget
 xbitmaps
 xorg-dev
