@@ -29,6 +29,7 @@ gfortran
 git
 gnupg
 golang
+gperf
 graphicsmagick
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
