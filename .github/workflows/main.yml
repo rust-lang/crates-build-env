@@ -42,7 +42,7 @@ jobs:
         run: docker build -t ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest ${{ matrix.image }}/
 
       - name: Authenticate with GitHub Container Registry
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
