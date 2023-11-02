@@ -62,6 +62,8 @@ liballegro-video5.2
 liballegro5-dev
 liballegro5.2
 libapparmor1
+libapr1-dev
+libaprutil1-dev
 libapt-pkg-dev
 libapt-pkg6.0
 libarchive-cpio-perl
@@ -791,6 +793,7 @@ libsuitesparse-dev
 libsuperlu5
 libsvm-dev
 libsvm3
+libsvn-dev
 libswresample-dev
 libswresample3
 libswscale-dev
