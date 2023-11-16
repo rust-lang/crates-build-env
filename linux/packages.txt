@@ -170,6 +170,7 @@ libcfitsio-doc
 libcfitsio9
 libcgi-fast-perl
 libcgi-pm-perl
+libchafa-dev
 libcharls2
 libchewing3-dev
 libchromaprint1
