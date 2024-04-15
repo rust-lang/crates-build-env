@@ -662,6 +662,7 @@ libpostproc55
 libpq-dev
 libpq5
 libprocps8
+libproj-dev
 libproj22
 libprotobuf-dev
 libprotobuf-lite23
