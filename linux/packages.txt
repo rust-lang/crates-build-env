@@ -532,7 +532,7 @@ libmircore-dev
 libmircore1
 libmnl0
 libmodplug1
-libmodsecurity3t64
+libmodsecurity3
 libmount1
 libmp3lame0
 libmpc3
