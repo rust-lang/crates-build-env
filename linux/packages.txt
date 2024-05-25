@@ -1024,6 +1024,7 @@ linux-libc-dev
 lld
 llvm
 llvm-12
+llvm-15-dev
 lxc-dev
 mdbtools-dev
 meson
