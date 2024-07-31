@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM ubuntu:noble
 
 # Install the packages contained in `packages.txt`
 COPY packages.txt /opt/crates-build-env/packages.txt
