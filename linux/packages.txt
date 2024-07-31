@@ -909,6 +909,7 @@ libx264-163
 libx264-dev
 libx265-199
 libx265-dev
+libxapian-dev
 libxapian30
 libxau-dev
 libxau6
