@@ -467,6 +467,7 @@ libjpeg8-dev
 libjs-jquery
 libjs-jquery-metadata
 libjs-jquery-tablesorter
+libjson-c-dev
 libjson-c5
 libjson-glib-1.0-0
 libjson-glib-1.0-common
@@ -839,6 +840,7 @@ libtraceevent-dev
 libtracefs-dev
 libtry-tiny-perl
 libtsan0
+libtss2-dev
 libtwolame0
 libubsan1
 libudev-dev
