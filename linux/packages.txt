@@ -266,6 +266,7 @@ libfabric1
 libfakeroot
 libfastjson4
 libfcgi-perl
+libfdisk-dev
 libfdisk1
 libffi-dev
 libffi7
