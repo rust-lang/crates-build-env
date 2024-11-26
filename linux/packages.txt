@@ -740,6 +740,7 @@ libsasl2-modules-db
 libsctp1
 libsdl2-2.0-0
 libsdl2-dev
+libseccomp-dev
 libseccomp2
 libsecret-1-0
 libsecret-common
