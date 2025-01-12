@@ -285,6 +285,7 @@ libfontconfig1-dev
 libfontenc-dev
 libfontenc1
 libfprint-2-dev
+libfreeimage-dev
 libfreetype6
 libfreetype6-dev
 libfreexl1
