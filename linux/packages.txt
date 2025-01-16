@@ -14,6 +14,7 @@ bzip2
 capnproto
 clang
 cmake
+coinor-libipopt-dev
 comerr-dev
 cpp
 cpp-10
