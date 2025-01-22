@@ -214,6 +214,7 @@ libdeflate-dev
 libdevmapper-dev
 libdevmapper-event1.02.1
 libdevmapper1.02.1
+libdlt-dev
 libdmx-dev
 libdmx1
 libdns-export1110
