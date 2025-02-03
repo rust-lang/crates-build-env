@@ -54,7 +54,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: ${{ matrix.image }}/
-          push: github.event_name == 'push' && github.ref == 'refs/heads/master'
+          push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
           tags: |
             ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest
             ghcr.io/${{ github.repository }}/${{ matrix.image }}:${{ github.sha }}
