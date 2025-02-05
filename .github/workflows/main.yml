@@ -54,7 +54,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ github.repository }}/${{ matrix.image }}
+          images: ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest
 
       - name: Build and push
         uses: docker/build-push-action@v6
