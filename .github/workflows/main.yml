@@ -50,16 +50,11 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
 
-      - name: Docker meta
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest
-
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
           context: ${{ matrix.image }}/
           push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: |
+            ghcr.io/${{ github.repository }}/${{ matrix.image }}:latest
+            ghcr.io/${{ github.repository }}/${{ matrix.image }}:${{ github.sha }}
