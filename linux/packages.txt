@@ -122,7 +122,6 @@ libbdplus0
 libbind-dev
 libbind9-161
 libbinutils
-libbladerf-dev
 libblas-dev
 libblas3
 libblkid-dev
