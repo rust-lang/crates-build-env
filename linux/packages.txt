@@ -365,6 +365,7 @@ libgraphene-1.0-0
 libgraphicsmagick1-dev
 libgraphite2-3
 libgraphite2-dev
+libgraphviz-dev
 libgsm1
 libgssapi-krb5-2
 libgssapi3t64-heimdal
