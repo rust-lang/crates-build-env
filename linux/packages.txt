@@ -121,7 +121,6 @@ libavutil58
 libayatana-appindicator3-dev
 libbdplus0
 libbinutils
-libbladerf-dev
 libblas-dev
 libblas3
 libblkid-dev
