@@ -798,6 +798,7 @@ libssl3t64
 libstarpu-dev
 libstatgrab-dev
 libstdc++-10-dev
+libstdc++-14-dev
 libstdc++-arm-none-eabi-newlib
 libstdc++6
 libsub-name-perl
