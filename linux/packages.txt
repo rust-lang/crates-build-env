@@ -535,6 +535,7 @@ libmodsecurity-dev
 libmount1
 libmp3lame0
 libmpc3
+libmpdclient-dev
 libmpfr6
 libmpg123-0t64
 libmtdev1t64
