@@ -896,6 +896,7 @@ libwayland-egl1
 libwayland-server0
 libwbclient0
 libwebkit2gtk-4.1-0
+libwebkit2gtk-4.1-dev
 libwebp-dev
 libwebp7
 libwebpdemux2
