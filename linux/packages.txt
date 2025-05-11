@@ -780,6 +780,7 @@ libsodium-dev
 libsodium23
 libsoup-2.4-1
 libsoup-3.0-0
+libsoup-3.0-dev
 libsoup-gnome-2.4-1
 libsoup2.4-dev
 libsoxr0
