@@ -612,6 +612,7 @@ libopus-dev
 libopus0
 libopusfile0
 liborc-0.4-0t64
+libostree-dev
 libp11-kit0
 libpam-cap
 libpam-modules
