@@ -1094,6 +1094,7 @@ rubygems-integration
 samba-libs
 sane-utils
 sgml-base
+sqlite3
 sudo
 tcl
 tcl8.6
