@@ -192,6 +192,7 @@ libcsfml-graphics2.6
 libcsfml-network2.6
 libcsfml-system2.6
 libcsfml-window2.6
+libcups2-dev
 libcups2t64
 libcurl3t64-gnutls
 libcurl4t64
