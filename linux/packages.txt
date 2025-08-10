@@ -806,6 +806,7 @@ libstdc++-14-dev
 libstdc++-arm-none-eabi-newlib
 libstdc++6
 libsub-name-perl
+libsubid-dev
 libsuitesparse-dev
 libsuperlu6
 libsvm-dev
