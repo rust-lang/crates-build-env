@@ -611,6 +611,7 @@ libopenmpt0t64
 libopenslide-dev
 libopus-dev
 libopus0
+libopusenc-dev
 libopusfile0
 liborc-0.4-0t64
 libostree-dev
