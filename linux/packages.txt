@@ -879,6 +879,8 @@ libva-x11-2
 libva2
 libvdpau-va-gl1
 libvdpau1
+libvips-dev
+libvips-tools
 libvisual-0.4-0
 libvncserver-dev
 libvorbis-dev
