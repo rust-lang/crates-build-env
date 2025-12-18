@@ -1076,6 +1076,7 @@ qt5-qmltooling-plugins
 qt6-base-dev
 qt6-base-dev-tools
 qt6-charts-dev
+qt6-declarative-dev
 qt6-svg-dev
 qt6-tools-dev
 qtbase5-dev
