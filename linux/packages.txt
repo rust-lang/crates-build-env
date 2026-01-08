@@ -561,6 +561,14 @@ libnl-genl-3-200
 libnl-genl-3-dev
 libnl-route-3-200
 libnl-route-3-dev
+libnm-dev
+libnm0
+libnma-common
+libnma-dev
+libnma-gtk4-0
+libnma-gtk4-dev
+libnma-headers
+libnma0
 libnorm1t64
 libnotify-dev
 libnotify4
