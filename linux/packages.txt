@@ -462,6 +462,7 @@ libjpeg-turbo8
 libjpeg-turbo8-dev
 libjpeg8
 libjpeg8-dev
+libjq-dev
 libjs-jquery
 libjs-jquery-metadata
 libjs-jquery-tablesorter
@@ -586,6 +587,7 @@ libogg-dev
 libogg0
 libomp-dev
 libomp5
+libonig-dev
 libopenal-data
 libopenal-dev
 libopenal1
