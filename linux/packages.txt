@@ -4,6 +4,7 @@ autoconf
 automake
 autopoint
 autotools-dev
+bash-builtins
 bind9-dev
 bind9-libs
 binutils-arm-none-eabi
