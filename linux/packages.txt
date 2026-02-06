@@ -99,6 +99,8 @@ libatspi2.0-dev
 libattr1
 libaudit-common
 libaudit1
+libaugeas-dev
+libaugeas0
 libauthen-sasl-perl
 libavahi-client-dev
 libavahi-client3
