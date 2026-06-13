@@ -235,6 +235,7 @@ libdv4t64
 libdw-dev
 libebur128-1
 libedit2
+libefl-all-dev
 libegl-dev
 libegl-mesa0
 libegl1
