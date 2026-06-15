@@ -288,6 +288,7 @@ libfontconfig1
 libfontconfig1-dev
 libfontenc-dev
 libfontenc1
+libfox-1.6-dev
 libfprint-2-dev
 libfreetype-dev
 libfreetype6
