@@ -745,6 +745,7 @@ librest-1.0-0
 librhash0
 librlottie-dev
 libroken19t64-heimdal
+librpm-dev
 librsvg2-2
 librsvg2-common
 librsvg2-dev
