@@ -16,6 +16,16 @@ If your crate fails to build on [Crater] or [docs.rs], you can:
 
 Note that the package needs to be available in the **Ubuntu 24.04** archives.
 
+## Linux distro update policy
+
+The `linux` and `linux-micro` containers track Ubuntu LTS releases. When the
+base distro is updated, we move to the current Ubuntu LTS rather than following
+interim Ubuntu releases.
+
+Anyone can send the PR for a distro update. If you want to help with the
+transition to the next Ubuntu LTS, feel free to open a PR with the required
+changes.
+
 ## Available containers
 
 ### `linux`
