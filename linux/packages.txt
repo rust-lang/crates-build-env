@@ -265,6 +265,7 @@ libext2fs2t64
 libfabric1
 libfakeroot
 libfastjson4
+libfcft-dev
 libfcgi-perl
 libfdisk-dev
 libfdisk1
