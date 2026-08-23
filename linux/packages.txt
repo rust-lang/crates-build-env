@@ -721,6 +721,7 @@ libqt6svgwidgets6
 libqt6test6
 libqt6xml6
 libquadmath0
+libradare2-dev
 libraw1394-11
 librdmacm-dev
 librdmacm1t64
