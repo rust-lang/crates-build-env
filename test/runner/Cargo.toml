@@ -1,0 +1,9 @@
+[package]
+name = "crates-build-env-test"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+log = "0.4"
+rustwide = { version = "0.26", default-features = false }
