@@ -57,10 +57,14 @@ jobs:
           images: ghcr.io/${{ github.repository }}/${{ matrix.image }}
           tags: latest
 
-      - name: Build and push
-        uses: docker/build-push-action@v7
-        with:
-          context: ${{ matrix.image }}/
-          push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+      - name: Test image with Rustwide
+        run: ./test_build.sh "${{ matrix.image }}" test/test-crate
+
+      - name: Push tested image
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        env:
+          LOCAL_IMAGE: crates-build-env-${{ matrix.image }}:local
+          REMOTE_IMAGE: ${{ steps.meta.outputs.tags }}
+        run: |
+          docker tag "${LOCAL_IMAGE}" "${REMOTE_IMAGE}"
+          docker push "${REMOTE_IMAGE}"
