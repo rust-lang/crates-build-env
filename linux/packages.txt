@@ -1079,6 +1079,7 @@ qt6-base-dev-tools
 qt6-base-private-dev
 qt6-charts-dev
 qt6-declarative-dev
+qt6-declarative-private-dev
 qt6-svg-dev
 qt6-tools-dev
 qtbase5-dev
