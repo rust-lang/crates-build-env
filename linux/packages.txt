@@ -141,7 +141,6 @@ libbsd0
 libbtrfsutil-dev
 libbz2-1.0
 libbz2-dev
-libcdk5-dev
 libc-ares-dev
 libc-bin
 libc-dev-bin
@@ -168,6 +167,7 @@ libcdio-dev
 libcdio-paranoia-dev
 libcdio-paranoia2t64
 libcdio19t64
+libcdk5-dev
 libcdparanoia-dev
 libcdparanoia0
 libcfitsio-dev
